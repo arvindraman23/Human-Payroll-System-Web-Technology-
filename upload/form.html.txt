@@ -1,0 +1,74 @@
+
+<html>
+<head></head>
+<body bgcolor="silver" font-color="red">
+<form action="reg.php" method="POST" name=""> 
+<table border='1' width='480px' cellpadding='0' cellspacing='0' align='center'>
+<center><tr>
+   <td><h1>Registration Form For Human Payroll and Task Lifecycle System </h1></td>
+</tr><center>
+ 
+<table border='1' width='480px' cellpadding='0' cellspacing='0' align='center'>
+<tr>
+    <td align='center'> First Name:</td>
+    <td><input type='text' name='fname' id='fname' ></td>
+</tr>
+<tr> <td>&nbsp;</td> </tr>
+<tr>
+    <td align='center'>Last Name:</td>
+    <td><input type='text' name='lname' id='lname'></td>
+</tr>
+<tr> <td>&nbsp;</td> </tr>
+<tr>
+    <td align='center'>Date Of Birth:</td>
+    <td><input type='date' name='dob' id='dob'></td>
+</tr>
+<tr> <td>&nbsp;</td> </tr>
+<tr>
+<td align='center'>Gender</td>
+<td><input type="radio" name="gen" value="male" size="10">Male
+<input type="radio" name="gen" value="Female" size="10">Female</td>
+</tr>
+<tr> <td>&nbsp;</td> </tr>
+
+<tr>
+    <td align='center'>Address:</td>
+    <td><input type='text' name='add' id='add'></td>
+</tr>
+<tr> <td>&nbsp;</td> </tr>
+<tr>
+    <td align='center'>Phone:</td>
+    <td><input type='text' name='phno' id='phno'></td>
+</tr>
+<tr> <td>&nbsp;</td> </tr>
+<tr>
+    <td align='center'>Email:</td>
+    <td><input type='email' name='email' id='email'></td>
+</tr>
+<tr> <td>&nbsp;</td> </tr>
+<tr>
+    <td align='center'>Pin code:</td>
+    <td><input type='text' name='pin' id='pin'></td>
+</tr>
+<tr> <td>&nbsp;</td> </tr>
+<tr>
+    <td align='center'>Username:</td>
+    <td><input type='text' name='uname' id='uname'></td>
+</tr>
+<tr> <td>&nbsp;</td> </tr>
+<tr>
+    <td align='center'>Password:</td>
+    <td><input type='password' name='pass' id='pass'></td>
+</tr>
+<tr> <td>&nbsp;</td> </tr>
+<table border='1' cellpadding='0' cellspacing='0' width='480px' align='center'>
+<tr>
+    <td align='center'><input type='submit' name='REGISTER' value="Register"></td>
+	<td><input type="reset"></td>
+</tr>
+</table>
+</table>
+ 
+</table>
+</body>
+</html>
